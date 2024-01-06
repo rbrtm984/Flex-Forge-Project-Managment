@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound"
 
 const cache = new InMemoryCache({
   typePolicies: {
@@ -37,6 +38,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="" element={<Home />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
         </Router>
