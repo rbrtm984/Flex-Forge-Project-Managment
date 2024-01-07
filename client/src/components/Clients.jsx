@@ -1,3 +1,13 @@
+/**
+ * Renders a table of clients fetched from the server.
+ * Uses the useQuery hook from @apollo/client to fetch the clients.
+ * Displays a loading spinner while fetching the data.
+ * Displays an error message if there is an error fetching the data.
+ * Renders the client data in a table format.
+ *
+ * @returns {JSX.Element} The Clients component.
+ */
+
 import { useQuery } from "@apollo/client";
 import ClientRow from "./ClientRow";
 import Spinner from "./Spinner";

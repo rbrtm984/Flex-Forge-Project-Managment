@@ -1,4 +1,8 @@
-import React from "react";
+/**
+ * Component for adding a client through a modal.
+ * @returns {JSX.Element} The AddClientModal component.
+ */
+
 import { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { useMutation } from "@apollo/client";

@@ -1,3 +1,12 @@
+
+/**
+ * A button component used to delete a project.
+ *
+ * @component
+ * @param {string} projectId - The ID of the project to be deleted.
+ * @returns {JSX.Element} The delete project button.
+ */
+
 import { useNavigate } from "react-router-dom";
 import { FaTrash } from "react-icons/fa";
 import { DELETE_PROJECT } from "../mutations/projectMutations";

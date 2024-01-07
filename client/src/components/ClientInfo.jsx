@@ -1,3 +1,12 @@
+/**
+ * Renders the client information.
+ * @param {Object} client - The client object.
+ * @param {string} client.name - The name of the client.
+ * @param {string} client.email - The email of the client.
+ * @param {string} client.phone - The phone number of the client.
+ * @returns {JSX.Element} The rendered client information.
+ */
+
 import { FaEnvelope, FaPhone, FaIdBadge } from "react-icons/fa";
 
 export default function ClientInfo({ client }) {

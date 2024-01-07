@@ -1,3 +1,15 @@
+/**
+ * Renders a row for a client in a table.
+ *
+ * @component
+ * @param {Object} props - The component props.
+ * @param {Object} props.client - The client object.
+ * @param {string} props.client.name - The name of the client.
+ * @param {string} props.client.email - The email of the client.
+ * @param {string} props.client.phone - The phone number of the client.
+ * @returns {JSX.Element} The rendered component.
+ */
+
 import { FaTrash } from "react-icons/fa";
 import { useMutation } from "@apollo/client";
 import { GET_CLIENTS } from "../queries/clientQueries";

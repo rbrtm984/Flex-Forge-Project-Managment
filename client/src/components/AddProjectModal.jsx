@@ -1,3 +1,12 @@
+/**
+ * AddProjectModal component for adding a new project.
+ *
+ * @component
+ * @example
+ * return (
+ *   <AddProjectModal />
+ * )
+ */
 import { useState } from "react";
 import { FaList } from "react-icons/fa";
 import { useMutation, useQuery } from "@apollo/client";

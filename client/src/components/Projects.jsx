@@ -1,3 +1,14 @@
+
+
+/**
+ * Renders a list of projects.
+ * Uses Apollo Client to fetch projects data.
+ * Displays a loading spinner while data is being fetched.
+ * Displays an error message if there is an error fetching the data.
+ * If there are projects available, renders a list of ProjectCard components.
+ * If there are no projects available, displays a message indicating so.
+ */
+
 import Spinner from "./Spinner";
 import { useQuery } from "@apollo/client";
 import ProjectCard from "./ProjectCard";

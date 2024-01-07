@@ -1,3 +1,10 @@
+
+/**
+ * EditProjectForm component for updating project details.
+ * @param {Object} project - The project object containing name, description, status, and id.
+ * @returns {JSX.Element} The rendered EditProjectForm component.
+ */
+
 import { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { GET_PROJECT } from "../queries/projectQueries";

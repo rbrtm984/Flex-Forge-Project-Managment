@@ -1,3 +1,14 @@
+
+
+/**
+ * Renders a project card component.
+ * @param {Object} project - The project object.
+ * @param {string} project.name - The name of the project.
+ * @param {string} project.id - The ID of the project.
+ * @param {string} project.status - The status of the project.
+ * @returns {JSX.Element} The project card component.
+ */
+
 export default function ProjectCard({ project }) {
   return (
     <div className="col-md-6">
