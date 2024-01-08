@@ -1,3 +1,11 @@
+/**
+ * Main application component.
+ * Renders the application layout and routes.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered application.
+ */
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import Header from "./components/Header";
@@ -29,6 +37,14 @@ const client = new ApolloClient({
   uri: "http://localhost:8080/graphql",
   cache,
 });
+
+/**
+ * Main application component.
+ * Renders the application layout and routes.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered application.
+ */
 
 function App() {
   return (
