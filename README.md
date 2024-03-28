@@ -34,7 +34,7 @@
 
 ## About The Project
 
-Managenta is a full-stack JavaScript application that allows users to manage clients and projects. The frontend is built with React and the backend is built with Node.js/GraphQL. 
+Manage.it is a full-stack JavaScript application that allows users to manage clients and projects. The frontend is built with React and the backend is built with Node.js/GraphQL. 
 
 ![Screen Shot](./client/src/components/assets/Flex%20Forge%20Screenshot.png)
 
